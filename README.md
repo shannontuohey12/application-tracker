@@ -15,9 +15,9 @@ A simple, clean, and responsive React application to help you **track, manage, a
 
 ---
 
-## Screenshots
+## App Demo
 
-
+![App Demo](applicationdemo.gif)
 
 ---
 
