@@ -1,0 +1,167 @@
+body {
+  background-color: #f2f1f1;
+}
+.card {
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+button {
+  transition: background-color 0.2s ease;
+}
+
+input:focus, select:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79,70,229,0.2);
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 24px;
+
+}
+h2 {
+  text-align: center;
+}
+/*FORM!*/ 
+
+form {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+}
+
+input,
+select,
+button {
+  display: block;
+  max-width: 745px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #dbcdcd;
+}
+button1 {
+  display: block;
+  max-width: 745px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #dbcdcd;
+  text-align: center;
+
+  background-color: #7659e0;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button1:hover {
+  background-color: rgb(204, 190, 255);
+  color: rgb(28, 23, 45);
+}
+
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+button {
+  background-color: #7659e0;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(204, 190, 255);
+  color: rgb(28, 23, 45);
+}
+
+
+
+/*  Cards  */
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+  margin: 0 0 4px;
+}
+
+.card p {
+  margin: 4px 0;
+}
+
+/*  Status badges  */
+
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.status.Applied {
+  background: #e5e7eb;
+  color: #374151;
+  margin-bottom: 12px;
+}
+
+.status.Interview {
+  background: #dbeafe;
+  color: #1e40af;
+  margin-bottom: 12px;
+
+}
+
+.status.Offer {
+  background: #dcfce7;
+  color: #166534;
+  margin-bottom: 12px;
+
+}
+
+.status.Rejected {
+  background: #fee2e2;
+  color: #991b1b;
+  margin-bottom: 12px;
+
+}
