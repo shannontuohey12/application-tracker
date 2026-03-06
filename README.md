@@ -1,8 +1,6 @@
-# 📋 Job/Internship Application Tracker
+#  Job/Internship Application Tracker
 
-A simple, clean, and responsive React application to help you **track, manage, and update your internship or job applications** in one place. Perfect for staying organized during your search for opportunities.
-
----
+A simple, clean, and responsive React application to help you track, manage, and update your internship or job applications in one place. Perfect for staying organized during your search for opportunities.
 
 ## Features
 
@@ -13,13 +11,9 @@ A simple, clean, and responsive React application to help you **track, manage, a
 - **Responsive Design** – Works well on desktop and smaller screens.  
 - **User Interface** – Modern card layout with clean styling and interactive elements.
 
----
-
 ## App Demo
 
 ![App Demo](applicationdemo.gif)
-
----
 
 ## Technologies Used
 
